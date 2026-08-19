@@ -1,13 +1,16 @@
-# Autohotel Mitla
+# Hotel Heraldo
 
-Landing page estática para Autohotel Mitla, construida únicamente con HTML, CSS y JavaScript.
+Demo comercial de una landing page estática para Hotel Heraldo, en Azcapotzalco, Ciudad de México.
+
+Está construida únicamente con HTML, CSS y JavaScript vanilla. No requiere Node, base de datos ni proceso de compilación, por lo que puede publicarse en GitHub Pages o cualquier hosting estático.
+
+## Información pendiente
+
+- Confirmar teléfono oficial.
+- Confirmar WhatsApp.
+- Confirmar categorías, precios y amenidades de las habitaciones.
+- Sustituir o ampliar fotografías oficiales si el cliente lo solicita.
 
 ## Publicación
 
-No requiere Node, base de datos ni proceso de compilación. Puede publicarse directamente en GitHub Pages, Cloudflare Pages, Netlify, Vercel o cualquier hosting que sirva archivos estáticos. Para minimizar costes, basta con conectar el dominio a uno de esos servicios gratuitos.
-
-## Personalización
-
-- Cambia textos, teléfono y dirección en `index.html`.
-- Cambia colores, tipografías y espaciado en `styles.css`.
-- Sustituye las URLs de imágenes por fotografías propias optimizadas en WebP/AVIF para mejorar rendimiento y control de marca.
+La rama principal es `main`. El sitio puede desplegarse desde GitHub Pages seleccionando `main` y la carpeta raíz `/` como fuente.

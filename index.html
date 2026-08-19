@@ -3,52 +3,56 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Autohotel Mitla: suites privadas, confort y atención 24 horas en Azcapotzalco, Ciudad de México." />
-    <title>Autohotel Mitla | Privacidad y confort</title>
+    <meta name="description" content="Hotel Heraldo en Azcapotzalco, Ciudad de México. Conoce nuestras habitaciones, ubicación y opciones de contacto." />
+    <title>Hotel Heraldo | Privacidad y comodidad en Azcapotzalco</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="#inicio" aria-label="Autohotel Mitla, inicio"><span>MITLA</span><small>AUTOHOTEL</small></a>
+      <a class="brand" href="#inicio" aria-label="Hotel Heraldo, inicio"><span>HERALDO</span><small>HOTEL</small></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
       <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
-        <a href="#inicio">Inicio</a><a href="#habitaciones">Habitaciones</a><a href="#experiencia">Experiencia</a><a href="#ubicacion">Ubicación</a>
+        <a href="#inicio">Inicio</a><a href="#habitaciones">Habitaciones</a><a href="#servicios">Servicios</a><a href="#ubicacion">Ubicación</a>
       </nav>
-      <a class="header-call" href="tel:+525553524683">Reservar <span>→</span></a>
+      <!-- PENDIENTE CLIENTE: confirmar teléfono oficial -->
+      <a class="header-call" href="#contacto">Llamar <span>→</span></a>
     </header>
 
     <main>
       <section id="inicio" class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-          <p class="eyebrow">Autohotel Mitla · Azcapotzalco</p>
-          <h1>Descansa a tu manera.<br /><em>Quédate en Mitla.</em></h1>
-          <p class="hero-copy">Habitaciones cómodas, privadas y accesibles en el norte de la Ciudad de México.</p>
-          <a class="button button-gold" href="#habitaciones">Conoce nuestras habitaciones <span>↗</span></a>
+          <p class="eyebrow">Hotel Heraldo · Azcapotzalco</p>
+          <h1>Privacidad y comodidad<br /><strong>cuando la necesitas.</strong></h1>
+          <p class="hero-copy">Un espacio cómodo y discreto en el norte de la Ciudad de México.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#habitaciones">Conoce las habitaciones <span>↗</span></a><a class="button button-ghost" href="#ubicacion">Cómo llegar <span>↗</span></a></div>
         </div>
         <a class="scroll-cue" href="#habitaciones" aria-label="Desplazar hacia habitaciones"><span></span>Descubrir</a>
       </section>
 
       <section id="habitaciones" class="section rooms">
         <div class="container">
-          <div class="section-heading"><p class="eyebrow">Elige tu experiencia</p><h2>Habitaciones hechas<br /><em>para ti</em></h2></div>
+          <div class="section-heading"><div><p class="eyebrow">Conoce tus opciones</p><h2>Habitaciones para<br /><strong>tu estancia.</strong></h2></div><p class="section-intro">Espacios pensados para ofrecer privacidad, comodidad y una experiencia práctica desde tu llegada.</p></div>
+          <!-- PENDIENTE CLIENTE: confirmar categorías reales, precios y amenidades -->
           <div class="room-grid">
-            <article class="room-card room-card-featured"><div class="room-image image-suite"></div><div class="room-body"><p class="eyebrow">Una estancia especial</p><h3>Habitación Mitla</h3><p>Un espacio amplio con cama matrimonial, cabecera de madera y ambiente cálido.</p><a href="tel:+525553524683">Consultar disponibilidad <span>→</span></a></div></article>
-            <article class="room-card"><div class="room-image image-premium"></div><div class="room-body"><p class="eyebrow">Confort total</p><h3>Habitación Premium</h3><p>TV, mesa de descanso, mobiliario de madera y todo lo necesario para relajarte.</p><a href="tel:+525553524683">Consultar disponibilidad <span>→</span></a></div></article>
-            <article class="room-card"><div class="room-image image-estandar"></div><div class="room-body"><p class="eyebrow">Esencial</p><h3>Habitación estándar</h3><p>Un espacio limpio y funcional, con baño privado y atención disponible las 24 horas.</p><a href="tel:+525553524683">Consultar disponibilidad <span>→</span></a></div></article>
+            <article class="room-card room-card-featured"><div class="room-image image-room-one" role="img" aria-label="Habitación de Hotel Heraldo con cama y cabecera de madera"></div><div class="room-body"><p class="eyebrow">Una opción cómoda</p><h3>Habitación Heraldo</h3><p>Un espacio cómodo y privado para disfrutar tu estancia.</p><a class="text-link" href="#contacto">Consultar disponibilidad <span>→</span></a></div></article>
+            <article class="room-card"><div class="room-image image-room-two" role="img" aria-label="Área de descanso de una habitación de Hotel Heraldo"></div><div class="room-body"><p class="eyebrow">Privacidad y descanso</p><h3>Comodidad y privacidad</h3><p>Habitaciones pensadas para una estancia práctica, cómoda y discreta.</p><a class="text-link" href="#contacto">Más información <span>→</span></a></div></article>
+            <article class="room-card"><div class="room-image image-bathroom" role="img" aria-label="Baño de una habitación de Hotel Heraldo"></div><div class="room-body"><p class="eyebrow">Conoce las opciones</p><h3>Tu espacio, a tu manera</h3><p>Consulta las opciones disponibles directamente con recepción.</p><a class="text-link" href="#contacto">Llamar <span>→</span></a></div></article>
           </div>
         </div>
       </section>
 
-      <section id="experiencia" class="experience"><div class="container experience-grid"><div class="experience-photo"></div><div class="experience-copy"><p class="eyebrow">Lo esencial, bien hecho</p><h2>Comodidad para<br /><em>sentirte en casa.</em></h2><p>Habitaciones prácticas, instalaciones limpias y atención cercana para que disfrutes tu estancia sin complicaciones.</p><div class="amenities"><span>◈ Atención 24 horas</span><span>◈ Cochera privada</span><span>◈ Baño privado</span><span>◈ TV y Wi-Fi</span></div><a class="text-link" href="https://wa.me/525553524683" target="_blank" rel="noopener">Reserva por WhatsApp <span>↗</span></a></div></div></section>
+      <section id="servicios" class="experience"><div class="container experience-grid"><div class="experience-photo" role="img" aria-label="Pasillo interior de Hotel Heraldo"></div><div class="experience-copy"><p class="eyebrow">Una estancia sin complicaciones</p><h2>Comodidad, privacidad<br /><strong>y atención.</strong></h2><p>Hotel Heraldo ofrece un espacio práctico para quienes buscan comodidad y discreción en Azcapotzalco.</p><div class="amenities"><span>● Privacidad</span><span>● Comodidad</span><span>● Atención directa</span><span>● Fácil ubicación</span></div><a class="text-link" href="#contacto">Conoce más <span>↗</span></a></div></div></section>
 
-      <section id="ubicacion" class="location section"><div class="container location-grid"><div><p class="eyebrow">Encuéntranos</p><h2>En el norte de<br /><em>la ciudad</em></h2><p>Manuel Salazar 35, San Juan Tlihuaca, Azcapotzalco, 02400 Ciudad de México.</p><a class="button button-dark" href="https://maps.google.com/?q=Manuel+Salazar+35,+San+Juan+Tlihuaca,+Azcapotzalco" target="_blank" rel="noopener">Cómo llegar <span>↗</span></a></div><div class="map-card"><span>MITLA</span><p>Abierto 24 horas<br />los 7 días de la semana</p></div></div></section>
+      <section id="ubicacion" class="location section"><div class="container location-grid"><div><p class="eyebrow">Encuéntranos</p><h2>Bien ubicado en<br /><strong>Azcapotzalco.</strong></h2><p>Consulta nuestra ubicación y encuentra la ruta más conveniente para llegar.</p><p class="address"><span>Dirección</span>Polo Norte 27, Ángel Zimbrón,<br />Azcapotzalco, Ciudad de México.</p><p class="nearby">Cerca de Parque Bicentenario y de importantes vialidades de la zona.</p><a class="button button-dark" href="https://maps.google.com/?q=Polo+Norte+27,+Angel+Zimbron,+Azcapotzalco,+Ciudad+de+Mexico" target="_blank" rel="noopener">Abrir en Google Maps <span>↗</span></a></div><div class="map-card"><div><span>HERALDO</span><p>Una ubicación práctica<br />en el norte de la ciudad</p></div></div></div></section>
+
+      <section id="contacto" class="contact"><div class="container contact-inner"><div><p class="eyebrow">Estamos para atenderte</p><h2>¿Quieres conocer<br /><strong>Hotel Heraldo?</strong></h2></div><div class="contact-actions"><!-- PENDIENTE CLIENTE: confirmar teléfono --><span class="pending-contact">Teléfono por confirmar</span><a class="button button-light" href="#ubicacion">Cómo llegar <span>↗</span></a><!-- PENDIENTE CLIENTE: confirmar WhatsApp --></div></div></section>
     </main>
 
-    <footer class="site-footer"><div class="container footer-grid"><div class="brand"><span>MITLA</span><small>AUTOHOTEL</small></div><p>Privacidad, confort y atención en cada visita.</p><div><a href="tel:+525553524683">+52 (55) 5352 4683</a><a href="mailto:info@autohotelmitla.com.mx">info@autohotelmitla.com.mx</a></div></div><div class="container copyright">© 2026 Autohotel Mitla</div></footer>
+    <footer class="site-footer"><div class="container footer-grid"><div class="brand"><span>HERALDO</span><small>HOTEL</small></div><p>Privacidad y comodidad en Azcapotzalco.</p><div><p>Polo Norte 27, Ángel Zimbrón,<br />Azcapotzalco, Ciudad de México</p><a href="#inicio">Volver al inicio ↑</a></div></div><div class="container copyright">© 2026 Hotel Heraldo</div></footer>
   </body>
 </html>
